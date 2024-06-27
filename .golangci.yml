@@ -1,0 +1,22 @@
+run:
+  timeout: 5m
+  modules-download-mode: readonly
+
+linters:
+  disable-all: true
+  enable:
+    - gofmt
+    - goimports
+    - govet
+    - errcheck
+    - gosimple
+    - ineffassign
+    - staticcheck
+    - typecheck
+    - wsl
+    - unused
+
+linters-settings:
+  wsl:
+    allow-assign-and-call: false
+    force-err-cuddling: true

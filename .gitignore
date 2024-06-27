@@ -19,5 +19,8 @@
 
 !Makefile
 
-# ...even if they are in subdirectories
+!.github/workflows/*.yml
+
+!.golangci.yml
+
 !*/
